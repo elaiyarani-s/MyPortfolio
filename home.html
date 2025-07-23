@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="70" tabindex="0">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <img src="images/sun.png" id="icon" class="ms-3" width="24" height="24" style="cursor: pointer;" />
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="vh-100 d-flex align-items-center justify-content-center text-center bg-light">
+    <div class="container" data-aos="fade-up">
+      <h1 class="display-4">Hi, I'm Elaiyarani Soundararajan</h1>
+      <p class="lead">Python Developer | Web Development</p>
+      <a href="#projects" class="btn btn-primary mt-3">View Projects</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-white">
+    <div class="container" data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="images/elaya.jpeg" class="img-fluid rounded" alt="About Me">
+        </div>
+        <div class="col-lg-6">
+          <h2>About Me</h2>
+          <p>I am a self-taught developer passionate about clean code and beautiful UI.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-4">Skills</h2>
+      <div class="row g-4 text-center">
+        <div class="col-6 col-md-3">
+          <img src="images/html.png" class="img-fluid mb-2" alt="HTML">
+          <p>HTML</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" height="30">
+          <p>CSS</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="images/js.png" class="img-fluid mb-2" alt="JavaScript">
+          <p>JavaScript</p>
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="images/bootstrap.png" class="img-fluid mb-2" alt="Bootstrap">
+          <p>Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-5 bg-white">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-4">Projects</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="images/project1.jpg" class="card-img-top" alt="Project 1">
+            <div class="card-body">
+              <h5 class="card-title">Project One</h5>
+              <p class="card-text">A brief description of your first project goes here.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="card h-100">
+            <img src="images/project2.jpg" class="card-img-top" alt="Project 2">
+            <div class="card-body">
+              <h5 class="card-title">Project Two</h5>
+              <p class="card-text">A brief description of your second project goes here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+    <div class="container" data-aos="fade-up">
+      <h2 class="text-center mb-4">Contact</h2>
+      <form class="mx-auto" style="max-width: 600px;">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="jsscript.js"></script>
+</body>
+</html>
