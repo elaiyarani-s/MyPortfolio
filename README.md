@@ -4,29 +4,29 @@ Personal portfolio website to showcase professional experience, skills, and proj
 
 ## 🚀 Features
 
-- Dynamic Experience Section: Loaded from JSON data with filter by company.
+- **Dynamic Experience Section**: Loaded from JSON data with filter by company.
 
-- Interactive Projects Section: Projects loaded dynamically with filters by technology and year.
+- **Interactive Projects Section:** Projects loaded dynamically with filters by technology and year.
 
-- Toggleable Project Descriptions: Click project image to show/hide details.
+- **Toggleable Project Descriptions**: Click project image to show/hide details.
 
-- ScrollSpy Navigation: Highlights current section in the navbar.
+- **ScrollSpy Navigation**: Highlights current section in the navbar.
 
-- Dark Mode Support: Switch between light/dark themes.
+- **Dark Mode Support**: Switch between light/dark themes.
 
-- AOS Animations: Smooth scroll animations throughout the site.
+- **AOS Animations**: Smooth scroll animations throughout the site.
 
-- Responsive Layout: Optimized for mobile, tablet, and desktop.
+- **Responsive Layout**: Optimized for mobile, tablet, and desktop.
 
 ## 🧩 Tech Stack
 
-- HTML5, CSS3, Bootstrap 5
+- **HTML5, CSS3, Bootstrap 5**
 
-- Vanilla JavaScript
+- **Vanilla JavaScript**
 
-- AOS for on-scroll animations
+- **AOS** for on-scroll animations
 
-- Local and CDN image hosting
+- **Local and CDN image hosting**
 
 ## 📁 Project Structure
 
@@ -40,12 +40,12 @@ Personal portfolio website to showcase professional experience, skills, and proj
 
 ## ⚙️ Setup & Run Locally
 
-1. Clone the repository
+1. **Clone the repository**
 
         git clone https://github.com/elaiyarani-s/MyPortfolio.git
         cd MyPortfolio
 
-2. Open index.html in your browser (no build step required)
+2. **Open** `index.html` in your browser (no build step required)
 
 
 ## 🔧 Usage
@@ -68,11 +68,11 @@ Personal portfolio website to showcase professional experience, skills, and proj
 
 - Filters `(<select>)` populate dynamically from data during initialization.
 
-- **Bootstrap 5 ScrollSpy** is enabled via data-bs-spy="scroll" and JS init.
+- **Bootstrap 5 ScrollSpy** is enabled via `data-bs-spy="scroll"` and JS init.
 
 - **AOS** is initialized and refreshed after dynamic rendering for proper on-scroll animations.
 
-- All interactive elements are implemented with vanilla JS for performance and simplicity.
+- All interactive elements are implemented with **vanilla JS** for performance and simplicity.
 
 ## 📌 To Customize
 
