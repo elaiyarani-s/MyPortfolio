@@ -7,7 +7,7 @@
         <meta name="author" content="Elaiyarani S">
 
         <!-- bootstrap -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     
         <!-- gogle fonts -->
@@ -19,21 +19,16 @@
         <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
         <!-- bootstrap js -->
-        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
         <link rel="stylesheet" href="style.css" />
 
         <title>My Portfolio</title>
-        <style>
-            html {
-                scroll-behavior: smooth;
-            }
-        </style>
 
 
     </head>
-    <body data-spy="scroll" data-target=".navbar" data-offset="1">
+    <body data-bs-spy="scroll" data-bs-target="#navbar-top" data-bs-offset="70" tabindex="0">   
         <!-- Navigation Bar -->
         <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
             <div class="container-fluid px-5">
@@ -74,8 +69,8 @@
         </section>
         
         <!-- About me Section -->
-        <section class="about mt-5" id="about">
-            <div class="heading text-center pt-5">
+        <section class="about" id="about">
+            <div class="heading text-center">
                 <h3>About Me</h3>
             </div>
             <div class="container justify-content-around align-items-center">
@@ -176,162 +171,44 @@
 
         <!-- Experience section -->
         <section class="expertise mt-5" id="experience">
-            <div class="heading text-center">
+            <div class="heading text-center" data-aos="fade-down">
                 <h3>Experience</h3>
             </div>
-            <div class="project-container" data-aos="fade-down" >
-                <div class="project-card justify-content-around mt-5">
-                    <div class="card h-100 shadow border-info bg-info mb-3" data-aos="fade-up">
-                        <div class="card-header bg-light">
-                            <img src="images/OAppSLogo.png" class="card-img-top project-img" alt=""  >
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title text-white">Senior Technologist <br>
-                                ( Jun 2020 &ndash; Feb 2022 )</h6>
-                            <p class="card-text project-desc">
-                                Marketplace app development, POC for new marketplace apps, API analysis, database design and
-                                funtional, technical and user help documentation.
-                            </p>
-                        </div>
-                        <div class="card-footer text-muted">
-                            <small> OApps Technologies Pvt Ltd, Thanjavur, India</small> 
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card justify-content-start mt-5">
-                    <div class="card h-100 shadow border-info bg-info mb-3" data-aos="fade-up">
-                        <div class="card-header bg-light">
-                            <img src="images/sc.png " class="card-img-top project-img" alt="" >
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title text-white">Senior System Analyst <br>
-                                ( Mar 2010 &ndash; Oct 2012 )</h6>
-                            <p class="card-text project-desc">
-                                Integral role in core banking application Production support for Standard Chartered Bank Vietnam, 
-                                showcasing expertise in managing high-severity incidents and crisis resolution.
-                            </p>
-                        </div>
-                        <div class="card-footer text-muted">
-                            <small> SC Global Busniess Services, Chennai, India</small> 
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card  mt-5" >
-                    <div class="card h-100 shadow border-info bg-info mb-3" data-aos="fade-up">
-                        <div class="card-header bg-light">
-                            <img src="images/sc.png " class="card-img-top project-img" alt="" >
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title text-white">Programmer Analyst <br>
-                                ( Mar 2007 &ndash; Feb 2010 )</h6>
-                            <p class="card-text project-desc">
-                                Analysing and fixing crystal reports data and design issues, performance tuning of crystal reports &amp; DB scripts, 
-                                monitoring critical reports delivery, Maintenance of BOXI R2 & 3.2.1 server, maintenance of IBM CMOD server.
-                            </p>
-                        </div>
-                        <div class="card-footer text-muted">
-                            <small> SC Global Busniess Services, Chennai, India</small> 
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card mt-5" >
-                    <div class="card h-100 shadow border-info bg-info mb-3" data-aos="fade-up">
-                        <div class="card-header bg-light">
-                            <img src="images/sc.png " class="card-img-top project-img" alt="" >
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title text-white">Product Analyst <br>
-                               ( Aug 2006 &ndash; Feb 2007 )</h6>
-                            <p class="card-text project-desc">
-                                Gathering crystal reports design requirements for global business users , 
-                                designed reports for business insights i.e., security risks, money laundering, fradulent transactions, customer statements 
-                                &amp; advices, DB2 scripts for report data &amp; publishing, change &amp; release management.
-                            </p>
-                        </div>
-                        <div class="card-footer text-muted">
-                            <small> SC Global Busniess Services, Chennai, India</small> 
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card  mt-5" >
-                    <div class="card h-100 shadow border-info bg-info mb-3" data-aos="fade-up">
-                        <div class="card-header bg-light">
-                            <img src="images/Movate-Logo-R-1.svg " class="card-img-top project-img" alt="" >
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title text-white">Application Engineer<br>
-                               ( Jul 2005 &ndash; Jul 2006 )</h6>
-                            <p class="card-text project-desc">
-                                Enterprise Application support for Business Objects SA involving design, development &amp; customization of
-                                crystal reports runtime SDKs in DotNet framework for VB, ASP, C#, &amp; VB 6.0 applications.
-                                Solved 1st level (Critical) and 2nd level (High priority) issues to global Developer community.
-                            </p>
-                        </div>
-                        <div class="card-footer text-muted">
-                            <small> CSS Slash Support, Chennai, India</small> 
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card  mt-5" >
-                    <div class="card h-100 shadow border-info bg-info mb-3" data-aos="fade-up">
-                        <div class="card-header bg-light">
-                            <img src="images/Advisor_Portal_Hero.png.webp" class="card-img-top project-img" alt="" >
-                        </div>
-                        <div class="card-body">
-                            <h6 class="card-title text-white">Software Programmer<br>
-                               ( Aug 2004 &ndash; Jun 2005 )</h6>
-                            <p class="card-text project-desc">
-                                Finnplann - a finance and wealth management product developement.
-                            </p>
-                        </div>
-                        <div class="card-footer text-muted">
-                            <small> GSB Financial Solutions (P) Ltd, Chennai, India</small> 
-                        </div>
-                    </div>
-                </div>
+
+            <!-- 🔽 Filter Dropdown -->
+            <div class="text-center my-4" data-aos="fade-up">
+                <select id="filter-select" class="form-select w-auto d-inline-block">
+                <option value="all">All</option>
+                </select>
             </div>
-            <div class="project-container">
-                <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
-                    <a href="images/Elaiyarani Soundararajan CV.pdf" download="" style="text-decoration: none;color: #fff;">Download CV</a>
-                </button>
+
+            <div class="container">
+                <div id="experience-list" class="row justify-content-center gy-5" data-aos="fade-up" data-aos-delay="150">
+
+                <!-- Dynamic job cards will be injected here -->
+                </div>
+
+                <div class="text-center mt-5" data-aos="zoom-in">
+                <a href="images/Elaiyarani Soundararajan CV.pdf" download class="c-btn h-btn py-3 px-5 rounded-pill text-white" style="text-decoration: none;">
+                    Download CV
+                </a>
+                </div>
             </div>
         </section>
+
 
         <!-- Projects Section -->
         <section class="skill mt-5" id="projects">
             <div class="heading text-center">
                 <h3>Projects</h3>
             </div>
-            <div class="project-container">
-                <div class="project-card justify-content-around mt-5" data-aos="fade-up" data-tech="JavaScript">
-                        <div class="card h-100 shadow-sm" >
-                            <div class="card-header">
-                                <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" class="card-img-top project-img" alt="Project 1" style="width: 80px;object-fit: cover;">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="bi bi-code-square"></i> Project Javascript</h5>
-                                <p class="card-text project-desc">JavaScript Project.</p>
-                                <a href="#" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i> View Code</a>
-                            </div>
-                        </div>
-                </div>
-                <div class="project-card justify-content-evenly mt-5" data-aos="fade-up" data-tech="HTML">
-                        <div class="card h-100 shadow-sm">
-                            <div class="card-header">
-                                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" class="card-img-top project-img" alt="Project 2" style="width: 80px;object-fit: cover;">
-                            </div>
-                            <div class="card-body">
-                                <h5 class="card-title"><i class="bi bi-code-square"></i> Project Python</h5>
-                                <p class="card-text project-desc">Python Project.</p>
-                                <a href="#" class="btn btn-primary" target="_blank"><i class="bi bi-github"></i> View Code</a>
-                            </div>
-                        </div>
-                </div>
+            <div class="text-center my-4">
+                <select id="tech-filter" class="form-select d-inline w-auto me-2"></select>
+                <select id="date-filter" class="form-select d-inline w-auto"></select>
             </div>
+            <div class="row project-container"></div> <!-- Dynamic content goes here -->
         </section>
-    
 
-       
         <!-- ContACT section -->
         <section class="contact py-5" id="contact">
             <div class="heading text-center">
@@ -428,13 +305,13 @@
             <i class="bi bi-arrow-up"></i>
         </button>
 
-        <script src="script.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script src="script/experienceData.js"></script>
+        <script src="script/experienceRender.js"></script>
+        <script src="script/projects.js"></script>
+        <script src="script/script.js"></script>
 
-        <script>
-            AOS.init();
-        </script>
 
     </body>
 </html>

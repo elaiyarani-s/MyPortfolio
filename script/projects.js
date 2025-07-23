@@ -14,7 +14,15 @@ const projects = [
     link: "#",
     tech: ["Python", "Django"],
     year: "2025"
-  }
+  },
+  {
+  title: "SkillSwap",
+  desc: "Created a webpage for free skill swap comunity",
+  img: "images/RehaIT.png",
+  link: "#",
+  tech: ["Python", "Django"],
+  year: "2025"
+}
 ];
 
 // DOM refs
