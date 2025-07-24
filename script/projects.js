@@ -1,7 +1,7 @@
 const projects = [
   {
     title: "Personal Portfolio",
-    desc: "Created personal Portfolio webpage using Javascript, HTML, CSS and Bootstrap 5",
+    desc: "Created personal Portfolio webpages using Javascript, HTML, CSS and Bootstrap 5",
     img: "images/Portfolio.jpeg",
     link: "https://github.com/elaiyarani-s/MyPortfolio.git",
     tech: ["JavaScript", "HTML", "CSS", "Bootstrap 5"],
@@ -9,7 +9,7 @@ const projects = [
   },
   {
     title: "REHA Radio",
-    desc: "Created a webpage for streaming online tamil fm radios and a pop up real time public chat app",
+    desc: "Created a website for streaming online tamil fm radios and a pop up real time public chat app",
     img: "images/RehaIT.png",
     link: "https://github.com/elaiyarani-s/REHA_radio.git",
     tech: ["Python", "Django"],
@@ -17,7 +17,7 @@ const projects = [
   },
   {
   title: "SkillSwap",
-  desc: "Created a webpage for free skill swap comunity",
+  desc: "Created a website for free skill swap comunity",
   img: "images/RehaIT.png",
   link: "#",
   tech: ["Python", "Django"],

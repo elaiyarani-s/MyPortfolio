@@ -1,4 +1,3 @@
-// experienceRender.js
 document.addEventListener("DOMContentLoaded", function () {
   const experienceList = document.getElementById("experience-list");
   const filterSelect = document.getElementById("filter-select");
