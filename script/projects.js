@@ -3,7 +3,7 @@ const projects = [
     title: "Personal Portfolio",
     desc: "Created personal Portfolio webpage using Javascript, HTML, CSS and Bootstrap 5",
     img: "images/Portfolio.jpeg",
-    link: "#",
+    link: "https://github.com/elaiyarani-s/MyPortfolio.git",
     tech: ["JavaScript", "HTML", "CSS", "Bootstrap 5"],
     year: "2025"
   },
@@ -11,7 +11,7 @@ const projects = [
     title: "REHA Radio",
     desc: "Created a webpage for streaming online tamil fm radios and a pop up real time public chat app",
     img: "images/RehaIT.png",
-    link: "#",
+    link: "https://github.com/elaiyarani-s/REHA_radio.git",
     tech: ["Python", "Django"],
     year: "2025"
   },

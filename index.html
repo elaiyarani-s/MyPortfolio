@@ -16,11 +16,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 
         <!-- animation -->
-        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-
-        <!-- bootstrap js -->
-        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />        
 
         <link rel="stylesheet" href="style.css" />
 
@@ -32,19 +28,21 @@
         <!-- Navigation Bar -->
         <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
             <div class="container-fluid px-5">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <a class="navbar-brand font-weight-bold  display-2" href="#" style="color: #3f396d">Portfolio</a>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
                         <li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                         <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
-                <!-- <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block" onclick="location.href='#contact'">Contact</button> -->
-                <!-- <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block" data-scroll-to="contact">Contact</button> -->
-
                 <button id="toggle-theme" class="btn btn-outline-light ml-3">
                     <img src="images/moon.png" id="icon"/>
                 </button>
@@ -86,7 +84,7 @@
         </section>
 
          <!-- skill section -->
-        <section class="skill py-5" id="about">
+        <section class="skill py-5" id="skills"> 
             <div class="heading text-center">
                 <h3><small>Skills </small></h3>
                 <div>
@@ -297,7 +295,7 @@
                 <i class="bi bi-envelope-at"></i></a>
             </div>
             <hr class="text-muted my-4" />
-            <p>Copyright 2025 Portfolio | All Rights Reserved.</p>
+            <p>&copy; 2025 Portfolio | All Rights Reserved.</p>
         </footer>
 
         <!-- Scroll to Top Button -->
@@ -305,6 +303,7 @@
             <i class="bi bi-arrow-up"></i>
         </button>
 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
         <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
         <script src="script/experienceData.js"></script>
