@@ -12,7 +12,8 @@ const projects = [
     title: "REHA Radio",
     desc: "Created a website for streaming online tamil fm radios and a pop up real time public chat app",
     img: "images/RehaIT.png",
-    link: "https://github.com/elaiyarani-s/REHA_radio.git",
+    link: "https://reha-radio.onrender.com/",
+    github: "https://github.com/elaiyarani-s/REHA_radio.git",
     tech: ["Python", "Django"],
     year: "2025"
   },
