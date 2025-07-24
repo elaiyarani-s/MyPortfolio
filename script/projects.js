@@ -3,7 +3,8 @@ const projects = [
     title: "Personal Portfolio",
     desc: "Created personal Portfolio webpages using Javascript, HTML, CSS and Bootstrap 5",
     img: "images/Portfolio.jpeg",
-    link: "https://github.com/elaiyarani-s/MyPortfolio.git",
+    link: "https://elaiyarani-s.github.io/MyPortfolio/",
+    github: "https://github.com/elaiyarani-s/MyPortfolio.git",
     tech: ["JavaScript", "HTML", "CSS", "Bootstrap 5"],
     year: "2025"
   },
@@ -78,8 +79,11 @@ function renderProjects() {
         <div class="card-body text-center">
           <h5 class="card-title"><i class="bi bi-code-square"></i> ${project.title}</h5>
           <p class="card-text project-desc" style="display: none;">${project.desc}</p>
-          <a href="${project.link}" class="btn btn-primary" target="_blank">
+          <a href="${project.github}" class="btn btn-primary" target="_blank">
             <i class="bi bi-github"></i> View Code
+          </a>
+          <a href="${project.link}" class="btn btn-outline-primary" target="_blank">
+            View Website
           </a>
         </div>
       </div>
