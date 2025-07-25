@@ -20,8 +20,9 @@ const projects = [
   {
   title: "SkillSwap",
   desc: "Created a website for free skill swap comunity",
-  img: "images/RehaIT.png",
+  img: "images/SkillSwap.png",
   link: "#",
+  github: "https://github.com/elaiyarani-s/REHA_radio.git",
   tech: ["Python", "Django"],
   year: "2025"
 }
