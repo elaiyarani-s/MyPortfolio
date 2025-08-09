@@ -9,6 +9,15 @@ const projects = [
     year: "2025"
   },
   {
+    title: "Personal Portfolio",
+    desc: "Created personal Portfolio webpages with Django",
+    img: "images/Portfolio.jpeg",
+    link: "https://elaiyarani-s.github.io/MyPortfolio/",
+    github: "https://github.com/elaiyarani-s/MyPortfolio.git",
+    tech: ["Django", "Python","JavaScript", "HTML", "CSS", "Bootstrap 5"],
+    year: "2025"
+  },
+  {
     title: "REHA Radio",
     desc: "Created a website for streaming online tamil fm radios and a pop up real time public chat app",
     img: "images/RehaIT.png",
@@ -19,11 +28,11 @@ const projects = [
   },
   {
   title: "SkillSwap",
-  desc: "Created a website for free skill swap comunity",
+  desc: "Created a website for free skill swap comunity as part of Lexicon project",
   img: "images/SkillSwap.png",
   link: "#",
-  github: "https://github.com/elaiyarani-s/REHA_radio.git",
-  tech: ["Python", "Django"],
+  github: "https://github.com/elaiyarani-s/MyPortfolio-Django.git",
+  tech: ["Python", "Django", "Javascript", "HTML", "CSS", "Bootstrap 5"],
   year: "2025"
 }
 ];
