@@ -28,12 +28,12 @@ const projects = [
 }
 ];
 
-// DOM refs
+
 const container = document.querySelector(".project-container");
 const techFilter = document.getElementById("tech-filter");
 const dateFilter = document.getElementById("date-filter");
 
-// ✅ Populate Filters
+
 function populateFilters() {
   const techs = [...new Set(projects.flatMap(p => p.tech))].sort();
   const years = [...new Set(projects.map(p => p.year))].sort().reverse();
@@ -55,7 +55,7 @@ function populateFilters() {
   });
 }
 
-// ✅ Render Projects
+
 function renderProjects() {
   const tech = techFilter.value;
   const year = dateFilter.value;

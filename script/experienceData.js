@@ -1,4 +1,3 @@
-// experienceData.js
 const experiences = [
   {
     title: "Senior Technologist",

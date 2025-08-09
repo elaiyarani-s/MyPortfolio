@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", function () {
   const experienceList = document.getElementById("experience-list");
   const filterSelect = document.getElementById("filter-select");
 
-  // ✅ Populate Filter Options
   const companies = [...new Set(experiences.map(exp => exp.company))];
   companies.forEach(company => {
     const option = document.createElement("option");
@@ -11,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
     filterSelect.appendChild(option);
   });
 
-  // ✅ Render Function
   function renderExperienceList(filter = "all") {
     experienceList.innerHTML = "";
 
@@ -41,14 +39,12 @@ document.addEventListener("DOMContentLoaded", function () {
       experienceList.appendChild(col);
     });
 
-    AOS.refresh(); // Ensure AOS applies after DOM change
+    AOS.refresh(); 
   }
 
-  // ✅ Event Listener
   filterSelect.addEventListener("change", (e) => {
     renderExperienceList(e.target.value);
   });
 
-  // ✅ Initial Render
   renderExperienceList();
 });
