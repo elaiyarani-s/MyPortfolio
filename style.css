@@ -174,7 +174,10 @@ body.light-mode .nav-link.active::after {
   height: 50px;
   object-fit: contain;
 }
-
+.skill-card {
+    background-color: #ffffff;
+    color: #000000;
+}
 /* Experience Section */
 .expertise {
   padding: 60px 0;
@@ -340,7 +343,6 @@ section {
   color: #fff;
 }
 .dark-mode section,
-.dark-mode .form-control,
 .dark-mode .container,
 .dark-mode .row,
 .dark-mode .col,
@@ -351,6 +353,14 @@ section {
   color: #ffffff !important;
   border-color: #333 !important;
 }
+
+.dark-mode section.about,
+.dark-mode section.about .container,
+.dark-mode section.about p {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+}
+
 .dark-mode .navbar,
 .dark-mode footer {
   background-color: #1c1c1c !important;
