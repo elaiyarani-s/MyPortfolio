@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Elaiyarani S">
+
+        <!-- bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    
+        <!-- gogle fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+
+        <!-- animation -->
+        <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />        
+
+        <link rel="stylesheet" href="style.css" />
+
+        <title>My Portfolio</title>
+
+
+    </head>
+    <body class="light-mode" data-bs-spy="scroll" data-bs-target="#navbar-top" data-bs-offset="70" tabindex="0"> 
+        <!-- Navigation Bar -->
+        <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+            <div class="container-fluid px-5">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand font-weight-bold  display-2" href="#" style="color: #3f396d">Portfolio</a>
+                <div class="collapse navbar-collapse " id="navbarNav">
+                    <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <button id="toggle-theme" class="btn btn-outline-light ml-3">
+                    <img src="images/moon.png" id="icon"/>
+                </button>
+            </div>
+        </nav>
+
+        <!-- home -->
+        <section class="home pt-5 pb-5" id="home">
+            <div class="row justify-content-around align-middle">
+                <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+                    <h2 style="color: #3f396d">
+                        Hello! I Am <br /><span class="h-text">Elaiyarani Soundararajan</span>
+                    </h2>
+                    <p class="text-muted text-center">
+                        I'm a software developer. I enjoy working with Python, MySQL, HTML, CSS, and JavaScript to bring ideas to life and enhance user experiences. 
+                    </p>
+                </div>
+                <div class="col-10 col-md-4 d-none d-md-block" data-aos="flip-left">
+                    <img src="images/elaya.jpeg" class="rounded-circle img-fluid mb-3"  alt="My Photo"  style="width: 400px; border-radius: 75%;">
+                </div>
+            </div>
+        </section>
+        
+        <!-- About me Section -->
+        <section class="about" id="about">
+            <div class="heading text-center">
+                <h3>About Me</h3>
+            </div>
+            <div class="container justify-content-around align-items-center">
+                <div class="text-md-center" data-aos="slide-left">
+                    <p class="text-muted">
+                        Solution-driven Senior System Analyst & Aspiring Python Developer with 9+ years of IT experience spanning enterprise systems, application support, and software development. Skilled in Python, Django, SQL/NoSQL, and data analysis. Proven track record in co-ordinating cross-functional teams, resolving high-severity incidents, and delivering scalable solutions. Currently pursuing an intensive Python Developer program at Lexicon IT Proffs and seeking LIA internship / trainee opportunities to apply hands-on development expertise. 
+                    </p>
+                </div>
+            </div>
+        </section>
+
+         <!-- skill section -->
+        <section class="skill py-5" id="skills"> 
+            <div class="heading text-center">
+                <h3><small>Skills </small></h3>
+                <div>
+                    <div class="d-flex flex-wrap ml-3 mb-3 mr-3" style="gap: 80px">
+                        <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML" width="30" height="30">
+                            <span class="mt-2 small">HTML</span>
+                        </div>
+                        <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS" width="40" height="30">
+                            <span class="mt-2 small">CSS</span>
+                        </div>
+                        <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Javascript" width="30" height="30">
+                            <span class="mt-2 small">Javascript</span>
+                        </div>
+<!--                         <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="NodeJS" width="30" height="30">
+                            <span class="mt-2 small">NodeJS</span>
+                        </div> -->
+                        <div class="d-flex flex-column  align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@3.13.0/icons/github.svg" alt="GitHub" width="30" height="30">
+                            <span class="mt-2 small">GitHub</span>
+                        </div>
+                        <div class="d-flex flex-column  align-items-center p-2 bg-white rounded-lg shadow" style="width: 90px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" width="30" height="30">
+                            <span class="mt-2 small">VS Code</span>
+                        </div>
+                        <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" width="30" height="30">
+                            <span class="mt-2 small">Python</span>
+                        </div>
+<!--                         <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" alt="Linux" width="30" height="30">
+                            <span class="mt-2 small">Linux</span>
+                        </div> -->
+                        <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="MySQL" width="30" height="30">
+                            <span class="mt-2 small">My SQL</span>
+                        </div>
+                        <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="images/MongoDB.svg" alt="MongoDB" width="14" height="30">
+                            <span class="mt-2 small">MongoDB</span>
+                        </div>
+                        <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://www.vectorlogo.zone/logos/djangoproject/djangoproject-ar21.svg" alt="Django" width="60" height="30">
+                            <span class="mt-2 small">Django</span>
+                        </div>
+<!--                         <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/flask/flask-original.svg" alt="Flask" width="30" height="30">
+                            <span class="mt-2 small">Flask</span>
+                        </div> -->
+<!--                         <div class="d-flex flex-column align-items-center p-2 bg-white rounded-lg shadow" style="width: 90px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQL Lite" width="30" height="30">
+                            <span class="mt-2 small">SQL Lite</span>
+                        </div> -->
+                        <div class="d-flex flex-column  align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" alt="Docker" width="30" height="30">
+                            <span class="mt-2 text-sm">Docker</span>
+                        </div>
+<!--                         <div class="d-flex flex-column  align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original.svg" alt="Azure" width="30" height="30">
+                            <span class="mt-2 small">Azure</span>
+                        </div> -->
+<!--                         <div class="d-flex flex-column  align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/replit/replit-original.svg" alt="Replit" width="30" height="30">
+                            <span class="mt-2 small">Replit</span>
+                        </div> -->
+                        <div class="d-flex flex-column  align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="30" height="30">
+                            <span class="mt-2 small">Bootstrap</span>
+                        </div>
+<!--                         <div class="d-flex flex-column  align-items-center p-2 bg-white rounded-lg shadow" style="width: 80px;">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="Java" width="30" height="30">
+                            <span class="mt-2 small">Java</span>
+                        </div> -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Experience section -->
+        <section class="expertise mt-5" id="experience">
+            <div class="heading text-center" data-aos="fade-down">
+                <h3>Experience</h3>
+            </div>
+
+            <!-- Filter Dropdown -->
+            <div class="text-center my-4" data-aos="fade-up">
+                <select id="filter-select" class="form-select w-auto d-inline-block">
+                <option value="all">All</option>
+                </select>
+            </div>
+
+            <div class="container">
+                <div id="experience-list" class="row justify-content-center gy-5" data-aos="fade-up" data-aos-delay="150">
+
+                <!-- Dynamic job cards -->
+                </div>
+
+                <div class="text-center mt-5" data-aos="zoom-in">
+                <a href="images/Elaiyarani Soundararajan CV.pdf" download class="c-btn h-btn py-3 px-5 rounded-pill text-white" style="text-decoration: none;" target="_blank">
+                    Download CV
+                </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="skill mt-5" id="projects">
+            <div class="heading text-center">
+                <h3>Projects</h3>
+            </div>
+            <div class="text-center my-4">
+                <select id="tech-filter" class="form-select d-inline w-auto me-2"></select>
+                <select id="date-filter" class="form-select d-inline w-auto"></select>
+            </div>
+            <div class="row project-container"></div> <!-- Dynamic content goes here -->
+        </section>
+
+        <!-- ContACT section -->
+        <section class="contact py-5" id="contact">
+            <div class="heading text-center">
+                <small>Get in Touch</small>
+                <h3>For any Queries</h3>
+            </div>
+            <div class="row justify-content-around mt-5">
+                <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+                    <div class="row justify-content-around">
+                        <div class="col-1">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <div class="col-11">
+                            <p>Stockholm, Sweden</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-evenly">
+                        <div class="col-1">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class="col-11">
+                            <p>+46 769780854</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-evenly">
+                        <div class="col-1">
+                            <i class="bi bi-send-fill"></i>
+                        </div>
+                        <div class="col-11">
+                            <p>elaiyarani.s@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="row justify-content-evenly">
+                        <div class="col-1">
+                            <i class="bi bi-globe-americas"></i>
+                        </div>
+                        <div class="col-11">
+                            <p>xyz.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+                    <div class="contact-form">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name"/>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email"/>
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone"/>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="5"></textarea>
+                        </div>
+                        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+                            Submit
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-muted py-4">
+            <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+            <div class="link-group mt-5" data-aos="fade-up">
+                <a href="#home">Home</a>
+                <div class="vr"></div>
+                <a href="#about">About Me</a>
+                <div class="vr"></div>
+                <a href="#experience">Experience</a>
+                <div class="vr"></div>
+                <a href="#projects">Projects</a>
+                <div class="vr"></div>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="social-links mt-5" data-aos="fade-up">
+                <a href="https://github.com/elaiyarani-s" class="button rounded-pill github" >
+                <i class="bi bi-github"></i></a>
+
+                <a href="https://linkedin.com/in/elaiyarani-s" class="button rounded-pill linkedin" target="_blank">
+                <i class="bi bi-linkedin"></i></a>
+
+                <a href="mailto:elaiyarani.s@gmail.com" class="button rounded-pill email">
+                <i class="bi bi-envelope-at"></i></a>
+            </div>
+            <hr class="text-muted my-4" />
+            <p>&copy; 2025 Portfolio | All Rights Reserved.</p>
+        </footer>
+
+        <!-- Scroll to Top Button -->
+        <button id="scrollToTopBtn" class="btn btn-primary position-fixed" title="Back to top" style="bottom:30px; right:30px; display:none;">
+            <i class="bi bi-arrow-up"></i>
+        </button>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+        <script src="script/experienceData.js"></script>
+        <script src="script/experienceRender.js"></script>
+        <script src="script/projects.js"></script>
+        <script src="script/script.js"></script>
+    </body>
+</html>
